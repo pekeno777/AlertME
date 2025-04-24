@@ -36,7 +36,7 @@ export const WaveAnimation: React.FC<WaveAnimationProps> = ({
           animation: 'wave 8s infinite ease-in-out',
         }}
       >
-        <style jsx>{`
+        <style>{`
           @keyframes wave {
             0%, 100% {
               transform: scale(1.5, 1) translateX(-25px);

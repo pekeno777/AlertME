@@ -8,8 +8,8 @@ export const Header: React.FC = () => {
         <div className="flex items-center gap-2">
           <img src={Rise} className="text-blue-600 h-10 w-1o" />
 
-          <h1 className="text-2xl sm:text-2xl font-bold text-gray-800">
-            AlertME | RISE
+          <h1 className="text-2xl sm:text-3xl font-bold text-gray-800">
+            <a href="https://semillero-website.vercel.app/">RISE</a>
           </h1>
         </div>
       </div>
