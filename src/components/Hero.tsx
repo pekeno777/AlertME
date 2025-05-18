@@ -1,13 +1,15 @@
 import React from "react";
 import Alertme from "../utils/alertme.png";
+import { RiskMonitor } from "./RiskMonitor";
 
 export const Hero: React.FC = () => {
     return (
-      <section className="flex items-center justify-around bg-white shadow-sm">
-        <div className="max-w-screen mx-auto flex items-center justify-between">
-          <div className="flex items-center gap-2">
-            <img src={Alertme} className="h-64 w-auto" />
-          </div>
+      <section className="flex flex-col md:flex-row items-center justify-center gap-8 bg-white shadow-sm p-6">
+        <div className="flex-shrink-0">
+          <img src={Alertme} alt="AlertME Logo" className="h-64 w-auto" />
+        </div>
+        <div className="w-full max-w-2xl">
+          <RiskMonitor />
         </div>
       </section>
     );

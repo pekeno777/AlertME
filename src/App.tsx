@@ -1,4 +1,3 @@
-import { RiskMonitor } from './components/RiskMonitor';
 import { Header } from './components/Header';
 import { Footer } from './components/Footer';
 import { Hero } from './components/Hero';
@@ -9,7 +8,6 @@ function App() {
       <Header />
       <main className="flex-grow flex flex-col items-center justify-center p-4">
         <Hero />
-        <RiskMonitor />
       </main>
       <Footer />
     </div>
